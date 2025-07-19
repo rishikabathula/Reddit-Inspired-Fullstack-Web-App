@@ -1,6 +1,5 @@
 Reddit-Inspired Fullstack Web App
-
-A Reddit-style application that empowers users to create communities, share content, engage in discussions, and maintain respectful communication through AI-powered moderation.
+It is a full-stack Reddit-style discussion platform built with Next.js, TypeScript, Prisma ORM, and MySQL. It enables users to authenticate via Google, create and join communities, publish rich-content posts, vote, and engage through comments.
 
 Key Features
 - Google Authentication using NextAuth.js
