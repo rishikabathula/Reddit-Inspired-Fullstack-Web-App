@@ -1,13 +1,6 @@
 # Node.js dependencies
 node_modules/
 
-# Production build
-.next/
-out/
-dist/
-build/
-.vercel/
-
 # Environment variables
 .env
 .env.local
