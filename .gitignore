@@ -1,36 +1,37 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node.js dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Production build
+.next/
+out/
+dist/
+build/
+.vercel/
 
-# testing
-/coverage
+# Environment variables
+.env
+.env.local
 
-# next.js
-/.next/
-/out/
-
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
 
-# local env files
-.env*.local
-.env
+# OS system files
+.DS_Store
+Thumbs.db
 
-# vercel
-.vercel
+# IDE/editor folders
+.vscode/
+.idea/
 
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Prisma local database (optional)
+prisma/dev.db
+prisma/dev.db-journal
+
+# Uploaded or temp files
+uploads/
+public/uploads/
+
+# Optional: test coverage
+coverage/
